@@ -5,7 +5,7 @@ import { Order } from './../entities/order.entity';
 import { ProductsService } from './../../products/services/products.service';
 
 import { User } from './../entities/user.entity';
-import { CreateUserDto, UpdateUserDto } from '../dtos/user.dtos';
+import { CreateUserDto, UpdateUserDto } from '../dto/user.dto';
 @Injectable()
 export class UsersService {
   constructor(
