@@ -1,4 +1,4 @@
-import { Module, HttpModule, HttpService } from '@nestjs/common';
+import { Module, HttpService, HttpModule } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import * as Joi from 'joi';
 
@@ -23,9 +23,8 @@ import config from './config';
     }),
     UsersModule,
     ProductsModule,
-
-    HttpModule,
     DatabaseModule,
+    HttpModule,
   ],
   controllers: [AppController],
   providers: [
