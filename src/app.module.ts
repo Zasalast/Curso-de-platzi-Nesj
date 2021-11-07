@@ -24,8 +24,10 @@ import config from './config';
     UsersModule,
     ProductsModule,
     DatabaseModule,
+
     HttpModule,
   ],
+
   controllers: [AppController],
   providers: [
     AppService,
